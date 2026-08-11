@@ -585,6 +585,28 @@
     </div>
   </section>
 
+  <section>
+    <p class="section-label">🧠 Gabinete</p>
+    <h2>Acompañamiento psicológico</h2>
+    <p>El Jardín de Moni cuenta con el acompañamiento de la Lic. Julieta Menardi, psicóloga especializada en las primeras etapas de la vida.</p>
+
+    <div class="adaptacion-box" style="margin-top: 20px;">
+      <strong style="color: var(--amarillo); font-size: 18px;">Lic. Julieta Menardi</strong>
+      <p style="color: rgba(255,255,255,0.9); margin-bottom: 6px;">Psicóloga · MN 90968</p>
+      <p style="color: rgba(255,255,255,0.75); font-size: 14px; margin-bottom: 16px;">Acompañamiento psicológico en las primeras etapas de la vida</p>
+      <ul class="valores-lista" style="margin-top: 0;">
+        <li style="color: rgba(255,255,255,0.8);">Infancias y adolescencias</li>
+        <li style="color: rgba(255,255,255,0.8);">Orientación a padres</li>
+        <li style="color: rgba(255,255,255,0.8);">Perinatalidad y cuidado en los primeros tiempos</li>
+      </ul>
+      <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 8px;">
+        <a href="tel:1134633037" style="color: var(--amarillo); font-size: 14px; text-decoration: none;">📞 11 3463-3037</a>
+        <a href="mailto:jmenardi.psi@gmail.com" style="color: var(--amarillo); font-size: 14px; text-decoration: none;">✉️ jmenardi.psi@gmail.com</a>
+        <p style="color: rgba(255,255,255,0.6); font-size: 13px; margin: 0;">📍 Atención presencial en Villa Urquiza y Olivos · Virtual disponible</p>
+      </div>
+    </div>
+  </section>
+
 </div>
 
 <div class="videos">
@@ -654,6 +676,7 @@
     video.controls = true;
     video.autoplay = true;
     video.playsinline = true;
+    video.preload = 'metadata';
     video.className = 'native-player';
     el.parentNode.replaceChild(video, el);
     video.play();
